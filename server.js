@@ -11,6 +11,7 @@ import adminRoutes from './routes/adminRoutes.js'
 import uploadRoutes from './routes/uploadRoutes.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import morgan from 'morgan'
+import cors from 'cors'
 const nodeEnv = process.env.NODE_ENV
 //function declarations
 dotenv.config()
